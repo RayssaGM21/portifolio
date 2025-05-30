@@ -86,24 +86,25 @@
       </div>
 
       <div class="mt-20 flex items-center text-center justify-between">
-        <div class="relative">
+        <div>
           <div
             class="w-[300px] inset-0 h-auto rounded-full p-1 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 -z-10">
             <div class="w-[300px] h-auto rounded-full bg-white flex items-center justify-center overflow-hidden -z-10">
               <img :src="eudesenho" alt="Desenho da Rayssa" class="object-cover w-[300px] h-auto" />
             </div>
           </div>
+        </div>
+        <div class="relative">
+          <div>
+            <h3 class="text-2xl font-semibold mt-6 mb-4 text-slate-900">Criatividade em cada cantinho</h3>
+            <p class="text-slate-600 max-w-xl">
+              Minha mente é movida a desafios, cores e códigos. Entre soluções criativas, ideias e projetos que
+              fazem a diferença, sigo transformando conceitos em experiências digitais que impactam e inspiram.
+            </p>
+          </div>
           <div
             class="absolute -inset-0 rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 opacity-20 blur-3xl animate-pulse -z-11">
           </div>
-        </div>
-        <div>
-
-          <h3 class="text-2xl font-semibold mt-6 mb-4 text-slate-900">Criatividade em cada linha de código</h3>
-          <p class="text-slate-600 max-w-xl">
-            Minha mente é movida a desafios, cores e códigos. Entre soluções criativas, ideias malucas e projetos que
-            fazem a diferença, sigo transformando conceitos em experiências digitais que impactam e inspiram.
-          </p>
         </div>
       </div>
 

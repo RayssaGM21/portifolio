@@ -27,7 +27,8 @@
               <ArrowRight class="ml-2 h-4 w-4" />
             </router-link>
             <button
-              class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white border border-white hover:bg-white hover:text-blue-700 rounded-md transition-all duration-200">
+              class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white border border-white hover:bg-white hover:text-blue-700 rounded-md transition-all duration-200"
+              @click="openLink('http://lattes.cnpq.br/4161934959976889')">
               <ExternalLink class="mr-2 h-4 w-4" />
               Currículo Lattes
             </button>
@@ -118,5 +119,6 @@ import {
 } from 'lucide-vue-next'
 
 import eudesenho from '../assets/images/desenhoeu.png'
+import openLink from '@/utils/openLink';
 
 </script>

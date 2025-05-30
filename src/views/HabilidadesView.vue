@@ -29,7 +29,7 @@ import {
 const skills = ref([
   { name: "Frontend", icon: Code, items: ["React", "Vue.js", "Bootstrap", "TypeScript", "Tailwind CSS"] },
   { name: "Backend", icon: Globe, items: [".Net", "Python", "PostgreSQL", "MySQL", "REST APIs", "PHP"] },
-  { name: "Mobile", icon: Gamepad2, items: ["Unity", "C#", "ShaderLab", "HTML", "HLSL"] },
+  { name: "GGames", icon: Gamepad2, items: ["Unity", "C#", "ShaderLab", "HTML", "HLSL"] },
   { name: "Design", icon: Palette, items: ["Figma", "Canva", "UI/UX", "CapCut", "Krita"] },
 ])
 

@@ -54,6 +54,11 @@
 
 <script setup>
 import { ref } from 'vue'
+import {
+  Mail,
+  Github,
+  Linkedin,
+} from 'lucide-vue-next'
 
 
 const form = ref({

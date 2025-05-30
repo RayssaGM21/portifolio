@@ -62,8 +62,8 @@
               foi o primeiro passo na minha trilha pela tecnologia.
             </p>
             <div class="mt-4">
-              <img :src="fotoCuriosidade" alt="Primeiro contato com tecnologia"
-                class="rounded-2xl shadow-lg w-full max-w-md">
+              <img :src="primeiro" alt="Primeiro contato com tecnologia"
+                class="rounded-2xl shadow-lg w-auto max-h-[300px]">
             </div>
           </div>
 
@@ -175,6 +175,7 @@ import code2024profs from '../assets/images/trajetoria/code2024profs.jpg'
 import bootcamp2024 from '../assets/images/trajetoria/bootcamp2024.jpg'
 import minicursophp1 from '../assets/images/trajetoria/minicursophp1.jpg'
 import minicursophp2 from '../assets/images/trajetoria/minicursophp2.jpg'
+import primeiro from '../assets/images/trajetoria/primeirocontato.jpg'
 
 
 </script>

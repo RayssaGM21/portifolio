@@ -19,6 +19,8 @@
 import minicursoImg from '../assets/images/projetos/minicursoJS.png';
 import minicursoPHPImg from '../assets/images/projetos/todoemdiaMinicursoPHP.png';
 import pecuniaSistemImg from '../assets/images/projetos/pecuniaSistem.png';
+import spaceTravelVideo from '../assets/images/projetos/nasaSpaceApps.mp4';
+import softgallery from '../assets/images/projetos/softgallery.png';
 import CardProjeto from "../components/CardProjetoComponent.vue"
 import { ref } from 'vue'
 
@@ -27,7 +29,8 @@ const projects = ref([
   {
     title: "Meu Painel de Estudos",
     description: "Painel de estudos criada para ministrar curso de JavaScript",
-    image: minicursoImg,
+    media: minicursoImg,
+    mediaType: "image",
     tech: ["JavaScript", "HTML", "CSS"],
     github: "https://github.com/RayssaGM21/Minicurso-JS",
     live: "https://rayssagm21.github.io/Minicurso-JS/",
@@ -35,19 +38,38 @@ const projects = ref([
   {
     title: "ToDo em Dia",
     description: "Aplicativo de gerenciamento de tarefas com interface intuitiva",
-    image: minicursoPHPImg,
+    media: minicursoPHPImg,
+    mediaType: "image",
     tech: ["PHP", "JavaScript", "HTML", "CSS"],
     github: "https://github.com/RayssaGM21/Minicurso-PHP",
     live: "https://rayssagm21.github.io/Minicurso-PHP/",
   },
   {
+    title: "Space Travel",
+    description: "Jogo educativo sobre exoplanetas e exploração espacial, inspirado nas descobertas da NASA.",
+    media: spaceTravelVideo, 
+    mediaType: "video",
+    tech: ["Unity", "C#", "ShaderLab", "HTML", "HLSL"],
+    github: "https://github.com/RayssaGM21/SpaceTravel.git",
+  },
+  {
     title: "Pecúnia Sistem",
     description: "Sistema de Controle de Finanças",
-    image: pecuniaSistemImg,
+    media: pecuniaSistemImg, 
+    mediaType: "image",
     tech: ["HTML", "PHP", "Bootstrap"],
     github: "https://github.com/RayssaGM21/Pecunia",
-    live: "#",
   },
-])
+  {
+    title: "Landing Page SoftGallery",
+    description: "Landing page responsiva da SoftGallery, com design atrativo e navegação interativa.",
+    media: softgallery, 
+    mediaType: "image",
+    tech: ["HTML", "Tailwind", "JavaScript"],
+    github: "https://github.com/SoftGallery/LandingPage",
+    live: "https://softgallery.github.io/LandingPage/"
+  },
+]);
+
 
 </script>
